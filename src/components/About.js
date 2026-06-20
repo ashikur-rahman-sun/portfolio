@@ -20,7 +20,6 @@ const FOCUS_CARDS = [
     points: [
       "Deep Learning (CV & NLP)",
       "Model Training & Fine-tuning",
-      "LLM Integration & RAG",
       "Research & Publication",
     ],
   },

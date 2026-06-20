@@ -17,6 +17,6 @@ export const COURSEWORK = [
   {
     label: "Software Engineering",
     icon: "⚙️",
-    courses: ["Software Architecture", "Design Patterns", "Agile & Scrum", "Software Testing", "DevOps Practices"],
+    courses: ["Software Architecture", "Design Patterns", "Agile & Scrum", "Software Testing"],
   },
 ];
