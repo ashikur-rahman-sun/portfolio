@@ -2,7 +2,7 @@ export const EDUCATION = [
   {
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "Bangladesh Army University of Engineering & Technology (BAUET)",
-    dates: "Graduated 2020",
+    dates: "Graduated 2021",
     gpa: "CGPA: 3.41 / 4.00",
     desc: "Focused on Software Quality Assurance, Algorithms, Databases, and Machine Learning. Projects and course attachments around predictive ML models and QA automation frameworks.",
     achievements: ["Second Runner-Up, Intra-University Programming Contest, 2019", "Active member of BAUET Computer Society"],
