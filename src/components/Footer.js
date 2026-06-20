@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import { Code2 as GithubIcon, Users as LinkedinIcon, Mail, ArrowUp, Terminal, X as TwitterIcon, Camera as InstagramIcon, Phone } from "lucide-react";
+import { ArrowUp, Terminal, Phone } from "lucide-react";
+import { GithubIcon, LinkedinIcon, MailIcon, XIcon, InstagramIcon } from "./SocialIcons";
 
 const FOOTER_LINKS = [
   { label: "Home",          to: "/" },
@@ -38,8 +39,8 @@ export default function Footer() {
                 {[
                   { icon: GithubIcon,   href: "https://github.com/ashikur-rahman-sun" },
                   { icon: LinkedinIcon, href: "https://www.linkedin.com/in/ashikur-rahman-sun/" },
-                  { icon: Mail,     href: "mailto:ashikurrsun@gmail.com" },
-                  { icon: TwitterIcon,  href: "https://x.com/ashikur_sun_" },
+                  { icon: MailIcon,     href: "https://mail.google.com/mail/?view=cm&fs=1&to=ashikurrsun@gmail.com" },
+                  { icon: XIcon,        href: "https://x.com/ashikur_sun_" },
                   { icon: InstagramIcon, href: "https://www.instagram.com/_____.sun_/" },
                 ].map(({ icon: Icon, href }, i) => (
                   <a key={i} href={href} target="_blank" rel="noreferrer"
@@ -75,8 +76,8 @@ export default function Footer() {
                   Open to new opportunities, research collaborations, and interesting projects.
                 </p>
                 <div className="space-y-2">
-                  <a href="mailto:ashikurrsun@gmail.com" className="btn-primary w-full justify-center text-sm py-2">
-                    <Mail size={14} /> Send a Message
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ashikurrsun@gmail.com" target="_blank" rel="noreferrer" className="btn-primary w-full justify-center text-sm py-2">
+                    <MailIcon size={14} /> Send a Message
                   </a>
                   <a href="tel:+8801705616580" className="btn-outline w-full justify-center text-sm py-2 font-mono">
                     <Phone size={13} /> +8801705616580
@@ -122,10 +123,12 @@ export default function Footer() {
             <span className="text-xs text-slate-500 font-mono hidden md:inline">Let's connect:</span>
 
             <a
-              href="mailto:ashikurrsun@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ashikurrsun@gmail.com"
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center gap-2 text-xs text-slate-400 hover:text-cyan-400 transition-colors font-mono"
             >
-              <Mail size={14} className="text-cyan-400" /> ashikurrsun@gmail.com
+              <MailIcon size={14} className="text-cyan-400" /> ashikurrsun@gmail.com
             </a>
 
             <span className="text-slate-800 font-mono hidden sm:inline">|</span>

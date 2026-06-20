@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { Code2 as GithubIcon, Users as LinkedinIcon, Mail, ArrowRight, Download, X as TwitterIcon, Camera as InstagramIcon } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
+import { GithubIcon, LinkedinIcon, MailIcon, XIcon, InstagramIcon } from "./SocialIcons";
 
 const SOCIALS = [
   { icon: GithubIcon, href: "https://github.com/ashikur-rahman-sun", label: "GitHub" },
   { icon: LinkedinIcon, href: "https://www.linkedin.com/in/ashikur-rahman-sun/", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:ashikurrsun@gmail.com", label: "Email" },
-  { icon: TwitterIcon, href: "https://x.com/ashikur_sun_", label: "Twitter" },
+  { icon: MailIcon, href: "https://mail.google.com/mail/?view=cm&fs=1&to=ashikurrsun@gmail.com", label: "Email" },
+  { icon: XIcon, href: "https://x.com/ashikur_sun_", label: "Twitter" },
   { icon: InstagramIcon, href: "https://www.instagram.com/_____.sun_/", label: "Instagram" },
 ];
 
@@ -58,10 +59,11 @@ export default function Home() {
 
             {/* Summary */}
             <p className="text-slate-400 text-base leading-relaxed max-w-lg">
-              Passionate about building robust software quality frameworks and applying machine
-              learning to real-world problems. I bridge the gap between rigorous testing
-              engineering and cutting-edge AI research — delivering systems that are both
-              reliable and intelligent.
+              Software QA Engineer with 3+ years of experience testing mobile,
+              web, and API-based applications in Agile environments. Skilled in manual,
+              exploratory, and automation testing using Selenium, Appium, and Postman.
+              Passionate about ensuring high-quality user experiences through collaboration,
+              automation, and continuous improvement.
             </p>
 
             {/* Actions */}

@@ -6,9 +6,10 @@ const FOCUS_CARDS = [
     title: "Automation & QA",
     color: "cyan",
     points: [
-      "Selenium, Playwright, Cypress",
+      "Selenium, Appium, Playwright",
       "CI/CD Pipeline Integration",
       "Performance & Load Testing",
+      "API Testing",
       "Test Architecture Design",
     ],
   },
@@ -98,10 +99,10 @@ export default function About() {
           <div className="lg:col-span-1 space-y-6">
             <div className="glass-card rounded-2xl overflow-hidden">
               <div className="h-64 overflow-hidden relative">
-                <img src={`${process.env.PUBLIC_URL}/CV-pic.png`} alt="Ashikur Rahman Sun" className="w-full h-full object-cover" />
+                <img src={`${process.env.PUBLIC_URL}/CV-pic.png`} alt="Ashikur Rahman" className="w-full h-full object-cover" />
               </div>
               <div className="p-5 space-y-3">
-                <h3 className="font-display font-700 text-white text-lg">Ashikur Rahman Sun</h3>
+                <h3 className="font-display font-700 text-white text-lg">Ashikur Rahman</h3>
                 <div className="space-y-1.5 text-sm text-slate-400">
                   <p className="flex items-center gap-2">
                     <MapPin size={13} className="text-cyan-400" />
@@ -113,7 +114,7 @@ export default function About() {
                   </p>
                 </div>
                 <p className="text-slate-500 text-xs leading-relaxed pt-2 font-mono border-t border-white/5">
-                  "Building software that's both intelligent and reliable."
+                  "ᴛᴀʟᴇɴᴛ ɪꜱ ꜱᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ ʙʟᴏᴏᴍ, ɪɴꜱᴛɪɴᴄᴛ ɪꜱ ꜱᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ ᴘᴏʟɪꜱʜ."
                 </p>
               </div>
             </div>
